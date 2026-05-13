@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="stylesheet" href="styles.css" />
+
+    <title>Jogo - Palavra da Vez</title>
+  </head>
+  <body>
+    <main>
+      <h1>Encontre qual a palavra da vez</h1>
+
+      <form>
+        <input type="text" placeholder="Digite a palavra da vez" id="name" />
+        <button type="submit" id="btnRevelar" class="button">Revelar Palavras</button>
+      </form>
+
+      <ul>
+        <li id="guest-1" class="guest">
+          <span>Estou na parte de fora da casa</span>
+          <span class="desativado">Jardim</span>
+        </li>
+
+        <li id="guest-2" class="guest">
+          <span>Sou um local alto, geralmente fácil de ver</span>
+          <span class="desativado">Montanha</span>
+        </li>
+
+        <li id="guest-3" class="guest">
+          <span>Uma vez disseram: "Que haja..."</span>
+          <span class="desativado">Luz</span>
+        </li>
+      </ul>
+    </main>
+
+    <script src="scripts.js"></script>
+  </body>
+</html>
