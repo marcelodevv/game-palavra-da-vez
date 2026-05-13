@@ -4,6 +4,12 @@ Um mini jogo desenvolvido com **HTML, CSS e JavaScript** onde o jogador precisa 
 
 ---
 
+## LIVE PREVIEW 
+
+https://marcelodevv.github.io/game-palavra-da-vez/
+
+---
+
 ## ✨ Sobre o projeto
 
 O projeto funciona como um jogo simples de adivinhação:
